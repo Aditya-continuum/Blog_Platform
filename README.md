@@ -75,17 +75,6 @@ A simple blog application built with a FastAPI backend, Streamlit frontend, and 
    - Frontend: [http://localhost:8501](http://localhost:8501)
    - Backend API: [http://localhost:8000/docs](http://localhost:8000/docs)
 
-### Docker Setup (Recommended)
-
-The project is dockerized with separate containers for the database (MySQL), backend (FastAPI), and frontend (Streamlit).
-
-1. **Ensure Docker is installed and running.**
-
-2. **Start the services:**
-   ```bash
-   docker-compose up --build
-   ```
-
 3. **Access the app:**
    - Frontend: [http://localhost:8501](http://localhost:8501)
    - Backend API: [http://localhost:8000/docs](http://localhost:8000/docs)
@@ -94,13 +83,6 @@ The project is dockerized with separate containers for the database (MySQL), bac
    ```bash
    docker-compose down -v
    ```
-
-### Docker Hub Images
-
-The Docker images for the backend and frontend are available on Docker Hub:
-
-- **Backend**: [ashishaditya/blog-backend](https://hub.docker.com/r/ashishaditya/blog-backend)
-- **Frontend**: [ashishaditya/blog-frontend](https://hub.docker.com/r/ashishaditya/blog-frontend)
 
 ## Database Schema
 
@@ -149,3 +131,4 @@ Contributions are welcome! Fork the repository and submit a pull request with im
 ---
 
 **Note**: Replace the screenshot URLs with your actual image links. You can upload them to a service like [Imgur](https://imgur.com/) or add them to a `/screenshots` folder in your GitHub repo and link them as `![Streamlit Frontend](screenshots/streamlit.png)`.
+
